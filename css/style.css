@@ -1,0 +1,206 @@
+ul, ol {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+  }
+      #pricing {
+    text-align: center;
+  }
+  
+  #pricing .title {
+    padding-top: 20px;
+  }
+  
+  #pricing .title h3 {
+    text-transform: uppercase;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  #pricing .title .month-plan {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  #pricing .table {
+    margin-top: 15px;
+    padding: 30px;
+    border-radius: 4px;
+    border: none !important;
+    box-shadow: 0px 2px 18px 0px rgba(198, 198, 198, 0.3);
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+  }
+  
+  #pricing .table .icon-box {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #EBEDEF;
+    margin-bottom: 20px;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+  }
+  
+  #pricing .table .icon-box i {
+    color: gold;
+    line-height: 80px;
+    font-size: 30px;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+  }
+  
+  #pricing .table .pricing-header {
+    position: relative;
+    text-align: center;
+  }
+  
+  #pricing .table .pricing-header .price-value {
+    font-size: 24px;
+    color: gold;
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  #pricing .table .pricing-header .price-value sup {
+    font-size: 16px;
+    font-weight: 500;
+    top: -18px;
+  }
+  
+  #pricing .table .pricing-header .price-value span {
+    font-size: 15px;
+    color: #abacae;
+    font-weight: 400;
+  }
+  
+  #pricing .table .description {
+    text-align: center;
+    padding: 0px 50px;
+    margin-bottom: 20px;
+  }
+  
+  #pricing .table .description li {
+    font-size: 14px;
+    font-weight: 400;
+    color: #abacae;
+    padding: 4px 0;
+  }
+  
+  #pricing .table .description li:last-child {
+    border-bottom: none;
+  }
+  
+  #pricing .table:hover {
+    background: #ffffff;
+    box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
+  }
+  
+  #pricing .table:hover .icon-box {
+    background: gold;
+  }
+  
+  #pricing .table:hover .icon-box i {
+    color: #fff;
+  }
+  
+  #pricing #active-tb {
+    background: #ffffff;
+    box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
+  }
+  
+  #pricing #active-tb .icon-box {
+    background: gold;
+   
+  }
+  
+  #pricing #active-tb .icon-box i {
+    color: #fff;
+    animation: rotateIn 1s infinite alternate !important;
+  }
+  
+  #pricing .active {
+    z-index: 99999;
+  }
+
+  .active img{
+    position: absolute;
+    width: 100px;
+    top: -28px;
+    left: -13px;
+    height: 100px;
+
+}
+.active:hover img{
+    animation: rotateIn 2s alternate !important;
+}
+  .btn {
+    font-size: 14px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 30px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    display: inline-block;
+  }
+  .btn:focus,
+  .btn:active {
+    box-shadow: none;
+    outline: none;
+    color: #fff;
+  }
+  
+  .btn-common {
+    background-color: gold;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+  }
+  
+  .btn-common:hover {
+    color: gold;
+    background: transparent;
+    border: 1px dotted gold;
+    box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+  }
+  
+  .btn-border {
+    color: gold;
+    background-color: transparent;
+    border: 1px solid gold;
+    border-radius: 30px;
+    text-transform: uppercase;
+  }
+  
+  .btn-border:hover {
+    color: #fff;
+    border-color: gold;
+    background-color: gold;
+  }
+  
+  .btn-border:focus {
+    color: #fff;
+    border-color: gold;
+    background-color: gold;
+  }
